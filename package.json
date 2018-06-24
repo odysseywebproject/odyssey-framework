@@ -1,0 +1,26 @@
+{
+  "name": "odyssey-framework",
+  "version": "1.0.0",
+  "description": "Framework escrito en SCSS.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odysseywebproject/odyssey-framework.git"
+  },
+  "author": "José Luis Valderrama Regueira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odysseywebproject/odyssey-framework/issues"
+  },
+  "homepage": "https://github.com/odysseywebproject/odyssey-framework#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-rename": "^1.3.0",
+    "gulp-sass": "^4.0.1"
+  }
+}
