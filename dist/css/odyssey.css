@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+/*
+ * Reset para los botones
+ *
+ */
+.text-button,
+.outlined-button,
+.button {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  padding: .5rem 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.8rem;
+  border-radius: 0;
+}
+
+.text-button i,
+.outlined-button i,
+.button i {
+  margin-right: .75rem;
+}
+
+.text-button:focus,
+.outlined-button:focus,
+.button:focus {
+  outline: none;
+}
+
+.text-button--rounded,
+.outlined-button--rounded,
+.button--rounded {
+  border-radius: 50px;
+}
+
+/*
+ * Botones de tipo texto
+ *
+ */
+.text-button {
+  border: none;
+  color: #888;
+  background-color: transparent;
+}
+
+.text-button:hover {
+  background-color: #f2f2f2;
+}
+
+.text-button:focus {
+  background-color: #e6e6e6;
+}
+
+.text-button--info {
+  color: #03A9F4;
+}
+
+.text-button--info:hover {
+  background-color: #e3f5fe;
+}
+
+.text-button--info:focus {
+  background-color: #cbedfd;
+}
+
+.text-button--success {
+  color: #66BB6A;
+}
+
+.text-button--success:hover {
+  background-color: #ebf6ec;
+}
+
+.text-button--success:focus {
+  background-color: #daeeda;
+}
+
+.text-button--warning {
+  color: #FFA726;
+}
+
+.text-button--warning:hover {
+  background-color: #fff5e6;
+}
+
+.text-button--warning:focus {
+  background-color: blanchedalmond;
+}
+
+.text-button--error {
+  color: #EF5350;
+}
+
+.text-button--error:hover {
+  background-color: #fdf2f2;
+}
+
+.text-button--error:focus {
+  background-color: #f9dcdc;
+}
+
+/*
+ * Botones con borde
+ *
+ */
+.outlined-button {
+  color: #888;
+  border: 2px solid #888;
+  background-color: transparent;
+}
+
+.outlined-button:hover {
+  background-color: #f2f2f2;
+}
+
+.outlined-button:focus {
+  background-color: #e6e6e6;
+}
+
+.outlined-button--info {
+  color: #03A9F4;
+  border: 2px solid #03A9F4;
+}
+
+.outlined-button--info:hover {
+  background-color: #e3f5fe;
+}
+
+.outlined-button--info:focus {
+  background-color: #cbedfd;
+}
+
+.outlined-button--success {
+  color: #66BB6A;
+  border: 2px solid #66BB6A;
+}
+
+.outlined-button--success:hover {
+  background-color: #ebf6ec;
+}
+
+.outlined-button--success:focus {
+  background-color: #daeeda;
+}
+
+.outlined-button--warning {
+  color: #FFA726;
+  border: 2px solid #FFA726;
+}
+
+.outlined-button--warning:hover {
+  background-color: #fff5e6;
+}
+
+.outlined-button--warning:focus {
+  background-color: blanchedalmond;
+}
+
+.outlined-button--error {
+  color: #EF5350;
+  border: 2px solid #EF5350;
+}
+
+.outlined-button--error:hover {
+  background-color: #fdf2f2;
+}
+
+.outlined-button--error:focus {
+  background-color: #f9dcdc;
+}
+
+/*
+ * Botones normales
+ *
+ */
+.button {
+  background-color: #888;
+  color: #fff;
+  border: 2px solid #888;
+}
+
+.button:hover {
+  background-color: #a2a2a2;
+}
+
+.button:focus {
+  background-color: #959595;
+}
+
+.button--info {
+  background-color: #03A9F4;
+  color: #fff;
+  border: 2px solid #03A9F4;
+}
+
+.button--info:hover {
+  background-color: #2ebcfc;
+}
+
+.button--info:focus {
+  background-color: #14b4fc;
+}
+
+.button--success {
+  background-color: #66BB6A;
+  color: #fff;
+  border: 2px solid #66BB6A;
+}
+
+.button--success:hover {
+  background-color: #89cb8c;
+}
+
+.button--success:focus {
+  background-color: #78c37b;
+}
+
+.button--warning {
+  background-color: #FFA726;
+  color: #fff;
+  border: 2px solid #FFA726;
+}
+
+.button--warning:hover {
+  background-color: #ffbc59;
+}
+
+.button--warning:focus {
+  background-color: #ffb140;
+}
+
+.button--error {
+  background-color: #EF5350;
+  color: #fff;
+  border: 2px solid #EF5350;
+}
+
+.button--error:hover {
+  background-color: #f3817f;
+}
+
+.button--error:focus {
+  background-color: #f16a67;
+}

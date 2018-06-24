@@ -1,0 +1,73 @@
+/*
+ * Botones normales
+ *
+ */
+.button {
+  background-color: $button-color;
+  color: #fff;
+  border: 2px solid $button-color;
+
+  &:hover {
+    background-color: lighten($button-color, 10);
+  }
+
+  &:focus {
+    background-color: lighten($button-color, 5);
+  }
+
+  &--info {
+    background-color: $info-color;
+    color: #fff;
+    border: 2px solid $info-color;
+
+    &:hover {
+      background-color: lighten($info-color, 10);
+    }
+
+    &:focus {
+      background-color: lighten($info-color, 5);
+    }
+  }
+
+  &--success {
+    background-color: $success-color;
+    color: #fff;
+    border: 2px solid $success-color;
+
+    &:hover {
+      background-color: lighten($success-color, 10);
+    }
+
+    &:focus {
+      background-color: lighten($success-color, 5);
+    }
+  }
+
+  &--warning {
+    background-color: $warning-color;
+    color: #fff;
+    border: 2px solid $warning-color;
+
+    &:hover {
+      background-color: lighten($warning-color, 10);
+    }
+
+    &:focus {
+      background-color: lighten($warning-color, 5);
+    }
+  }
+
+  &--error {
+    background-color: $error-color;
+    color: #fff;
+    border: 2px solid $error-color;
+
+    &:hover {
+      background-color: lighten($error-color, 10);
+    }
+
+    &:focus {
+      background-color: lighten($error-color, 5);
+    }
+  }
+}

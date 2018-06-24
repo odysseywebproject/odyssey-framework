@@ -1,0 +1,9 @@
+@import './config/config';
+//@import './rsc/normalize';
+@import './rsc/reset';
+
+// Componentes
+@import './components/buttons';
+
+// Estilos personalizados por el usuario
+@import 'custom';

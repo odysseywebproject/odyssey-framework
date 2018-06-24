@@ -1,0 +1,53 @@
+// A continuación se importan algunas de las fuentes más populares y utilizadas.
+//
+// Cuando tengas claro cuáles son las fuentes exactas que vas a utilizar, es aconsejable
+// que comentes las importaciones de las fuentes que no vas a necesitar. De esta manera,
+// evitarás la carga innecesaria de fuentes, lo que ralentizaría la carga de tu proyecto.
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,700');            // Ubuntu
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');            // Roboto
+
+// Acto seguido, se declaran los mapas con las anteriores importaciones de fuentes. Todas
+// tienen la misma estructura para poder acceder a sus propiedades de igual forma. Para
+// ello, deberás hacer uso de la función map_get($map, $key), siendo $map el mapa del que
+// quieres obtener el valor y $key el nombre de la propiedad.
+// Un ejemplo sería:
+//    .myComponent {
+//      font-family: map-get($ubuntu, "family"); // Obtenemos la fuente
+//      font-weight: map-get($ubuntu, "bold"); // Obtenemos el estilo de la fuente (negrita en este ejemplo)
+//    }
+//
+// Para que esta forma de organizar las fuentes pueda ser aprovechada al máximo, te recomiendo
+// crear una variable global a la que asignes la fuente que quieres utilizar. De esta manera,
+// si en algún momento quieres cambiar la fuente principal de tu proyecto, solamente tendrás
+// que cambiar el valor de la variable global. A continuación, se explica en un ejemplo:
+//    $main-font: $ubuntu; // Creamos una nueva lista a la cual asignamos la fuente que queremos usar como principal.
+//
+//    Ahora, cuando queramos acceder al nombre de la fuente o a un estilo concreto, lo haríamos
+//    de la siguiente manera:
+//
+//    .myComponent {
+//      font-family: map-get($main-font, "family");
+//      font-weight: map-get($main-font, "regular");
+//    }
+//
+// Como puedes ver, esta manera es mucho mejor que utilizar la fuente directamente, puesto que si a
+// mitad del proyecto decides cambiar la fuente principal, solamente tienes que cambiar el valor
+// de la variable global $main-font:
+//    $main-font: $roboto;
+
+$ubuntu: (
+  "family": "Ubuntu",
+  "regular": 400,
+  "medium": 500,
+  "bold": 700
+);
+
+$roboto: (
+  "family": "Roboto",
+  "regular": 400,
+  "medium": 500,
+  "bold": 700
+);
+
+

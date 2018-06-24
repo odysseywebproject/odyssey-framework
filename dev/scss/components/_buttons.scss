@@ -1,0 +1,10 @@
+// Configuración de los botones
+$buttons-font-size: .8rem;
+$buttons-font-weight: map-get($main-font, "medium");
+$buttons-border-radius: 0;
+
+// Importaciones
+@import './buttons/reset-buttons';
+@import './buttons/text-buttons';
+@import './buttons/outlined-buttons';
+@import './buttons/primary-buttons';

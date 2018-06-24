@@ -1,0 +1,30 @@
+/*
+ * Reset para los botones
+ *
+ */
+.text-button,
+.outlined-button,
+.button {
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  padding: .5rem 1rem;
+  cursor: pointer;
+  font-weight: $buttons-font-weight;
+  font-size: $buttons-font-size;
+  border-radius: $buttons-border-radius;
+
+  i {
+    // Para iconos dentro de los botones
+    margin-right: .75rem;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &--rounded {
+    border-radius: 50px;
+  }
+}

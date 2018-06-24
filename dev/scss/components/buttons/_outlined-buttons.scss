@@ -1,0 +1,69 @@
+/*
+ * Botones con borde
+ *
+ */
+.outlined-button {
+  color: $outlined-button-color;
+  border: 2px solid $outlined-button-color;
+  background-color: transparent;
+
+  &:hover {
+    background-color: lighten($button-color--light, 15);
+  }
+
+  &:focus {
+    background-color: lighten($button-color--light, 10);
+  }
+
+  &--info {
+    color: $info-color;
+    border: 2px solid $info-color;
+
+    &:hover {
+      background-color: lighten($info-color--light, 20);
+    }
+
+    &:focus {
+      background-color: lighten($info-color--light, 15);
+    }
+  }
+
+  &--success {
+    color: $success-color;
+    border: 2px solid $success-color;
+
+    &:hover {
+      background-color: lighten($success-color--light, 20);
+    }
+
+    &:focus {
+      background-color: lighten($success-color--light, 15);
+    }
+  }
+
+  &--warning {
+    color: $warning-color;
+    border: 2px solid $warning-color;
+
+    &:hover {
+      background-color: lighten($warning-color--light, 20);
+    }
+
+    &:focus {
+      background-color: lighten($warning-color--light, 15);
+    }
+  }
+
+  &--error {
+    color: $error-color;
+    border: 2px solid $error-color;
+
+    &:hover {
+      background-color: lighten($error-color--light, 20);
+    }
+
+    &:focus {
+      background-color: lighten($error-color--light, 15);
+    }
+  }
+}

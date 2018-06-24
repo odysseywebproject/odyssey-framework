@@ -1,0 +1,65 @@
+/*
+ * Botones de tipo texto
+ *
+ */
+.text-button{
+  border: none;
+  color: $text-button-color;
+  background-color: transparent;
+
+  &:hover {
+    background-color: lighten($button-color--light, 15);
+  }
+
+  &:focus {
+    background-color: lighten($button-color--light, 10);
+  }
+
+  &--info {
+    color: $info-color;
+
+    &:hover {
+      background-color: lighten($info-color--light, 20);
+    }
+
+    &:focus {
+      background-color: lighten($info-color--light, 15);
+    }
+  }
+
+  &--success {
+    color: $success-color;
+
+    &:hover {
+      background-color: lighten($success-color--light, 20);
+    }
+
+    &:focus {
+      background-color: lighten($success-color--light, 15);
+    }
+  }
+
+  &--warning {
+    color: $warning-color;
+
+    &:hover {
+      background-color: lighten($warning-color--light, 20);
+    }
+
+    &:focus {
+      background-color: lighten($warning-color--light, 15);
+    }
+  }
+
+  &--error {
+    color: $error-color;
+
+    &:hover {
+      background-color: lighten($error-color--light, 20);
+    }
+
+    &:focus {
+      background-color: lighten($error-color--light, 15);
+    }
+  }
+}
